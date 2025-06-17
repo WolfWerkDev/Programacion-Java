@@ -1,0 +1,82 @@
+Constantes, Variables, Tipos de Datos y Operadores
+1. Variables
+Una variable es un espacio en memoria donde se almacena un valor que puede cambiar durante la ejecución de un programa. Las variables tienen un nombre, un tipo de dato y un valor.
+
+Ejemplo en Java:
+
+int edad = 25;
+Aquí edad es el nombre de la variable, int es el tipo de dato (entero), y 25 es el valor.
+
+2. Constantes
+Una constante es similar a una variable, pero su valor no puede cambiar después de ser asignado. Se usan para valores fijos, como el número pi o una tasa de interés.
+
+Ejemplo en Java:
+
+final double PI = 3.1416;
+La palabra clave final indica que PI es una constante.
+
+3. Tipos de Datos
+Los tipos de datos definen qué tipo de valores puede almacenar una variable. Se dividen en:
+
+Tipos primitivos (básicos):
+
+int: números enteros (ej. 10, -5)
+
+double: números decimales (ej. 3.14, -2.5)
+
+char: un solo carácter (ej. 'A', 'b')
+
+boolean: valores lógicos (true o false)
+
+Tipos de datos compuestos o de referencia:
+
+String: cadenas de texto (ej. "Hola mundo")
+
+Arrays, objetos, listas, etc.
+
+Ejemplo:
+
+String nombre = "Carlos";
+boolean esEstudiante = true;
+4. Operadores
+Los operadores permiten realizar operaciones sobre variables y valores. Se clasifican así:
+
+Aritméticos: realizan operaciones matemáticas.
+
++ suma
+
+- resta
+
+* multiplicación
+
+/ división
+
+% módulo (residuo)
+
+Relacionales o de comparación: comparan dos valores.
+
+== igual a
+
+!= diferente de
+
+> mayor que
+
+< menor que
+
+>= mayor o igual que
+
+<= menor o igual que
+
+Lógicos: combinan expresiones booleanas.
+
+&& (AND): ambas condiciones deben ser verdaderas
+
+|| (OR): al menos una condición debe ser verdadera
+
+! (NOT): invierte el valor lógico
+
+Ejemplo:
+
+int a = 10;
+int b = 5;
+boolean resultado = (a > b) && (b != 0); // true
